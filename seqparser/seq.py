@@ -23,7 +23,6 @@ def transcribe(seq: str, reverse: bool = False) -> str:
 
 
     """
-    print('transcribing...')
     mapping= {
         'A':'U',
         'T':'A', 
