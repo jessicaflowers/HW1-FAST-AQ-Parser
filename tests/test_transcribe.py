@@ -23,13 +23,19 @@ def test_freebie_transcribe_2():
         
 def test_transcribe():
     """
-    Write your unit test for the transcribe function here.
+    Test that the following mapping is true:
+    G --> C
+    C --> G
+    T --> A
+    A --> U
     """
-    pass
-
+    # assert transcribe("GCTA") == "CGAU"
+    assert transcribe("ACTGAACCC") == "UGACUUGGG"
 
 def test_reverse_transcribe():
     """
-    Write your unit test for the reverse transcribe function here.
+    Test that the input string gets transcribed and then reversed, i.e.:
+    GCTA --> CGAU --> UAGC
     """
-    pass
+    # assert reverse_transcribe("GCTA") == "UAGC"
+    assert reverse_transcribe("ACTGAACCC") == "GGGUUCAGU"

@@ -1,6 +1,13 @@
 # Project 1
 Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
 
+# References for writing this assignment
+
+## For transcribe/reverse transcribe functions:
+https://www.w3schools.com/python/ref_string_maketrans.asp
+https://stackoverflow.com/questions/931092/how-do-i-reverse-a-string-in-python 
+
+
 # Assignment Overview
 The purpose of this assignment is to bring everybody up to speed on using python and highlight some of the elements of the language and of OOP that will be _inherited_ by downstream course content. We also hope to use this as an opportunity to learn some of the useful tools within github for software development that will be useful to you in your research experiences down the road. 
 
